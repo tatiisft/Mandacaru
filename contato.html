@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato e Apoio - Mandacaru</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container-cabecalho">
+            <div class="logo-area">
+                <img src="img/logo-mandacaru-branco.png" alt="Logo Mandacaru" class="logo-imagem">
+                <h1 class="nome-projeto">Mandacaru</h1>
+            </div>
+
+            <nav class="menu-navegacao">
+                <ul class="lista-menu">
+                    <li><a href="index.html" class="link-menu">Início</a></li>
+                    <li><a href="tipos-violencia.html" class="link-menu">Tipos de Violência</a></li>
+                    <li><a href="conheca-app.html" class="link-menu">Conheça o App</a></li>
+                    <li><a href="contato.html" class="link-menu">Contato e Apoio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="secao-titulo">
+        <h1>Contato e Apoio</h1>
+        <p>Entre em contato conosco ou ajude a divulgar o projeto Mandacaru.</p>
+    </section>
+
+
+    <section class="secao-formulario">
+        <div class="container">
+            <h2 class="titulo-secao-conheca">Entre em Contato</h2>
+            
+            <form id="form" class="formulario-contato">
+                <!-- Campo Nome -->
+                <div class="grupo-form">
+                    <label for="nome" class="label-form">Nome</label>
+                    <input 
+                        type="text" 
+                        id="nome" 
+                        name="nome" 
+                        class="campo-input" 
+                        placeholder="Seu nome completo"
+                        required
+                    >
+                </div>
+
+                <!-- Campo E-mail -->
+                <div class="grupo-form">
+                    <label for="email" class="label-form">E-mail</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        class="campo-input" 
+                        placeholder="seu.email@exemplo.com"
+                        required
+                    >
+                </div>
+
+                <!-- Campo Mensagem -->
+                <div class="grupo-form">
+                    <label for="mensagem" class="label-form">Mensagem</label>
+                    <textarea 
+                        id="mensagem" 
+                        name="mensagem" 
+                        class="campo-textarea" 
+                        placeholder="Escreva sua mensagem aqui..."
+                        rows="6"
+                        required
+                    ></textarea>
+                </div>
+
+                <!-- Botão Enviar -->
+                <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="secao-apoiar">
+        <div class="container">
+            <div class="conteudo-apoiar">
+                <h2 class="titulo-secao-conheca">Apoie o Projeto</h2>
+                <p class="texto-apoiar">
+                    O Mandacaru é um projeto acadêmico voltado para a segurança e proteção das mulheres em situações de vulnerabilidade. Desenvolvemos este aplicativo com o objetivo de oferecer ferramentas tecnológicas acessíveis que ajudem a salvar vidas. Ao compartilhar e divulgar o Mandacaru, você contribui para alcançar mais mulheres que precisam de apoio e proteção.
+                </p>
+                <button class="botao-compartilhar" onclick="compartilharProjeto()">Compartilhar Projeto</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="secao-canais">
+        <div class="container">
+            <h2 class="titulo-secao-conheca">Nossos Canais</h2>
+            
+            <div class="grid-canais">
+                <!-- Card E-mail -->
+                <div class="card-canal">
+                    <div class="icone-canal">📧</div>
+                    <h3 class="titulo-canal">E-mail</h3>
+                    <p class="texto-canal">Entre em contato pelo nosso endereço de e-mail.</p>
+                    <a class="link-canal">contato@mandacaru.com</a>
+                </div>
+
+                <!-- Card Instagram -->
+                <div class="card-canal">
+                    <div class="icone-canal">📱</div>
+                    <h3 class="titulo-canal">Instagram</h3>
+                    <p class="texto-canal">Siga-nos nas redes sociais para atualizações e dicas.</p>
+                    <a target="_blank" class="link-canal">@mandacaru</a>
+                </div>
+
+                <!-- Card LinkedIn -->
+                <div class="card-canal">
+                    <div class="icone-canal">💼</div>
+                    <h3 class="titulo-canal">LinkedIn</h3>
+                    <p class="texto-canal">Conheça mais sobre nossa equipe e projeto.</p>
+                    <a target="_blank" class="link-canal">Mandacaru Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="container-rodape">
+            <div class="info-copyright">
+                <p>&copy; 2026 Mandacaru. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
