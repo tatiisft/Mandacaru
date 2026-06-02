@@ -35,6 +35,11 @@ Inspirado na resistência do mandacaru, símbolo do Nordeste brasileiro, o proje
 ---
 
 ## Site Institucional
+🌐 Acesse o projeto online:
+[Mandacaru](https://tatiisft.github.io/Mandacaru/) 
+
+🎨 Protótipo:
+[FIGMA](https://www.figma.com/proto/MoO8YG9XPjfaWsmU0SAQwv/SINPI?node-id=54-201&t=dT54AO76UVMNItS4-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=54%3A201)
 
 O site apresenta:
 
