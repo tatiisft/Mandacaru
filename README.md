@@ -76,6 +76,20 @@ A pasta `/docs` reúne a documentação produzida durante o desenvolvimento do p
 
 ---
 
+## Aprendizados
+
+Durante o desenvolvimento do Mandacaru, a equipe aplicou conhecimentos de:
+
+- Levantamento de requisitos
+- Pesquisa de usuários
+- Análise de concorrentes
+- Prototipação no Figma
+- Desenvolvimento Web com HTML, CSS e JavaScript
+- Organização de projetos colaborativos no GitHub
+- Documentação de software
+
+---
+
 ## Equipe
 
 * Anna Beatriz Malafaia Silva
