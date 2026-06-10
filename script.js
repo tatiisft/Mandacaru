@@ -5,7 +5,7 @@ function compartilharProjeto() {
         navigator.share({
             title: 'Mandacaru',
             text: 'Conheça o Mandacaru - um projeto acadêmico para segurança e proteção das mulheres.',
-            url: window.location.origin
+            url: 'https://tatiisft.github.io/Mandacaru/'
         }).catch(function(erro) {
             console.log('Erro ao compartilhar:', erro);
         });
